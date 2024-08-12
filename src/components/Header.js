@@ -4,6 +4,9 @@ import MyImage from '../assets/piotr_photo.jpg';
 function Header(props) {
     return (
         <>
+            <div className="Photo">
+                    <img src={MyImage} alt="pfp" />
+            </div>
              <div className="Header">
                 
 
@@ -11,9 +14,7 @@ function Header(props) {
             <div className="spacer layer1">
 
             </div>
-            <div className="Photo">
-                    <img src={MyImage} alt="pfp" />
-            </div>
+            
         </>
            
     );
