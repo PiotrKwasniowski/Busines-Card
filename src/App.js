@@ -5,7 +5,9 @@ import BusinessCard from './components/BusinessCard.js';
 function App() {
   return (
     <div className="App">
-        <BusinessCard/>
+        <bds>
+          <BusinessCard/>
+        </bds>
     </div>
   );
 }
